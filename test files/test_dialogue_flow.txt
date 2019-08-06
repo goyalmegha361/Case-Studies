@@ -1,0 +1,98 @@
+User:Hi
+Bot: Hope you're good today!
+User: can you find some italian restaurant in chennai
+Bot: What is the average budget for two people?
+1. less than 300
+2. between 300 to 700
+3. more than 700
+>700
+Fetching the results for request ..............
+Found following restaurants...
+Coal Barbecues in 40, 2nd Floor, Bazullah Road, T. Nagar, Chennai has been rated 4.9
+AB's - Absolute Barbecues in 5th Floor, Vivira Mall, Navallur, Chennai has been rated 4.9
+AB's - Absolute Barbecues in 45, GN Chetty Road, T. Nagar, Chennai has been rated 4.9
+Chili's American Grill & Bar in S-29, 2nd Floor, Phoneix Market City, 142, Velachery Main Road, Chennai has been rated 4.8
+Barbeque Nation in 39, 1st Floor, Bazullah Road, Star City Serviced Apartments, T. Nagar, Chennai has been rated 4.8
+
+Bot: Do you like me to send the details to your email?
+User: yes
+Bot: To what email should I send the details
+User: send to goyalmegha361@gmail.com
+Bot: Got email
+Bot: Bye-bye
+=================================================================================================
+User: hi
+Bot: Hola!
+Bot:How can I help you?
+User: help me find a restaurant in chennai with italian food
+Bot: What is the average budget for two people?
+1. less than 300
+2. between 300 to 700
+3. more than 700
+between 300 to 700
+Fetching the results for request ..............
+Found following restaurants...
+Onesta in 3/62, 2nd Floor, Tech Pump Towers, Kumaran Nagar, Semmancheri, Chennai has been rated 4.9
+Fusilli Reasons in 2/64, Ormes Main Road, Kilpauk, Chennai has been rated 4.6
+Blind Ch3mistry in 52, Ground Floor, Eldams Road, Teynampet, Chennai has been rated 4.6
+Blind Ch3mistry in 7/2 M, 4th Main Road, Besant Nagar, Chennai has been rated 4.5
+BLIND CH3MISTRY in Old 11, New 19, Brindhavan Apartment, Khader Nawaz Khan Road, 1st Floor, Nungambakkam, Chennai has been rated 4.5
+
+Bot: Shall I send more details to your email?
+User: yes
+Bot: Please enter an email ID to send the details to.
+User: send to goyalmegha361@gmail.com
+Bot: Got email goyalmegha361@gmail.com
+Msg is ==== Content-Type: multipart/alternative; boundary="===============1704280842045744268=="
+MIME-Version: 1.0
+
+--===============1704280842045744268==
+
+--===============1704280842045744268==--
+
+Bot: Sent the email successfully to goyalmegha361@gmail.com.
+Bot: Bye-bye
+===========================================================================================================
+User: hi
+Bot: Howdy!
+User: dance for me
+Bot: I apologize. I am still learning.
+Bot: How can I assist you today?
+User: find me a restaurant
+Bot: Definetly, In which city you want to search?
+User: mmbai
+Bot: What kind of cuisine would you like?
+ 1. Chinese
+ 2. Italian
+ 3. South Indian
+ 4. North Indian
+ 5. Mexican
+ 6. American
+User: south indian
+Bot: What price range you like to search?
+1. less than 300
+2. between 300 to 700
+3. more than 700
+User: more than 700
+Fetching the results for request ..............
+Found following restaurants...
+Pot Pourri in 2nd Floor, Cubic Mall, Vasant Vihar Road, Chembur, Mumbai has been rated 4.9
+Hitchki in Ground Floor, Viviana Mall, Eastern Express Highway, Near Jupiter Hospital, Majiwada, Thane West has been rated 4.9
+Hitchki in 5, Transocean, Hiranandani Business Park, Lake Boulevard Road, Powai, Mumbai has been rated 4.8
+Lord of the Drinks in 3rd Floor, Trade View Building, Kamala Mills Compound, Senapati Bapat Marg, Lower Parel, Mumbai has been rated 4.8
+Pot Pourri in G 51/52, Inorbit Mall, Sector 30 A, Vashi, Navi Mumbai has been rated 4.8
+
+Bot: Shall I send more details to your email?
+User: yes goyalmegha361@gmail.com
+Bot: Got email goyalmegha361@gmail.com
+Msg is ==== Content-Type: multipart/alternative; boundary="===============3336576714723051305=="
+MIME-Version: 1.0
+
+--===============3336576714723051305==
+
+--===============3336576714723051305==--
+
+Bot: Sent the email successfully to goyalmegha361@gmail.com.
+Bot: goodbye :(
+
+================================================================================================================================
