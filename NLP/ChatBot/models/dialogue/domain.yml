@@ -1,0 +1,157 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_ask_howcanhelp
+- utter_ask_location
+- utter_ask_cuisine
+- utter_ask_price
+- utter_ask_email
+- utter_ask_send_email
+- utter_invalid_location
+- utter_no_match_price_range
+- utter_invalid_price_range
+- utter_invalid_cuisine
+- utter_no_restaurants_found
+- utter_email_sent_successfully
+- utter_email_not_recognized
+- action_search_restaurant
+- validate_location
+- validate_cuisine
+- validate_price
+- get_all_search_results
+- action_email
+- action_restarted
+- action_bye
+- action_slot_reset
+actions:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_ask_howcanhelp
+- utter_ask_location
+- utter_ask_cuisine
+- utter_ask_price
+- utter_ask_email
+- utter_ask_send_email
+- utter_invalid_location
+- utter_no_match_price_range
+- utter_invalid_price_range
+- utter_invalid_cuisine
+- utter_no_restaurants_found
+- utter_email_sent_successfully
+- utter_email_not_recognized
+- actions.ActionSearchRestaurants
+- actions.ActionValidateLocation
+- actions.ActionValidateCuisine
+- actions.ActionValidatePrice
+- actions.GetAllSearchResults
+- actions.ActionSendEmail
+- actions.ActionRestarted
+- actions.ActionGoodBye
+- actions.ActionSlotReset
+config:
+  store_entities_as_slots: true
+entities:
+- location
+- cuisine
+- price
+- email
+intents:
+- greet
+- affirm
+- deny
+- goodbye
+- thankyou
+- restaurant_search
+- send_email
+- default
+slots:
+  cuisine:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - chinese
+    - mexican
+    - south indian
+    - north indian
+    - american
+    - italian
+  email:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  price:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - '1'
+    - '2'
+    - '3'
+  requested_slot:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+templates:
+  utter_ask_cuisine:
+  - text: "What kind of cuisine would you like? \n 1. Chinese \n 2. Italian \n 3.\
+      \ South Indian \n 4. North Indian \n 5. Mexican \n 6. American"
+  - text: "What would you like to choose from the menu? \n 1. Chinese \n 2. Italian\
+      \ \n 3. South Indian \n 4. North Indian \n 5. Mexican \n 6. American"
+  utter_ask_email:
+  - text: To what email should I send the details
+  - text: May I know your email to send you the details?
+  - text: Please enter an email ID to send the details to.
+  utter_ask_howcanhelp:
+  - text: How can I help you?
+  - text: How can I assist you today?
+  utter_ask_location:
+  - text: In what city?
+  - text: Definetly, In which city you want to search?
+  - text: Ofcourse, may I know the city name you reside?
+  - text: Which city are you looking the restaurants in?
+  utter_ask_price:
+  - text: "What price range you like to search? \n1. less than 300 \n2. between 300\
+      \ to 700 \n3. more than 700"
+  - text: "What is the average budget for two people? \n1. less than 300 \n2. between\
+      \ 300 to 700 \n3. more than 700"
+  utter_ask_send_email:
+  - text: Shall I send you details of all the restaurants on email?
+  - text: Do you like me to send the details to your email?
+  - text: Shall I send more details to your email?
+  utter_default:
+  - text: I apologize. I am still learning.
+  - text: Sorry couldn't understand you. Please type again.
+  utter_email_not_recognized:
+  - text: Email not recognized - {email}. Please type again.
+  - text: Please enter a valid email ID.
+  utter_email_sent_successfully:
+  - text: Sent the email successfully to {email}.
+  - text: Email sent! Please check your inbox for more details.
+  utter_goodbye:
+  - text: goodbye :(
+  - text: Bye-bye
+  - text: Thanks! Bye !
+  - text: See you again!
+  - text: See you soon!
+  utter_greet:
+  - text: Hey there!
+  - text: Hola!
+  - text: Hope you're good today!
+  - text: Howdy!
+  utter_invalid_cuisine:
+  - text: Sorry! Invalid cuisine input {cuisine}. Please try again.
+  - text: '{cuisine} unavailable here. Please try a different cuisine from the menu.'
+  utter_invalid_location:
+  - text: Sorry! we dont serve in this city {location}. Enter different city
+  - text: Sorry! We're not operating in {location} at the moment.
+  utter_invalid_price_range:
+  - text: Sorry, couldnt recognise the price range {price}. Try a different range
+  - text: Invalid price range. Please try again with another price range.
+  utter_no_match_price_range:
+  - text: Sorry! No restaurants found in this price range. Choose different price.
+  - text: No results found. Please Choose different price range
+  utter_no_restaurants_found:
+  - text: Sorry! No restaurants found!
