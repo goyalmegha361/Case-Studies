@@ -74,8 +74,6 @@ For the chosen investment type, make a data frame named top9 with the top nine c
 
 Identify the top three English-speaking countries in the data frame top9.
 
- 
-
 Table 3.1: Analysing the Top 3 English-Speaking Countries
 
  1. Top English-speaking country	              
